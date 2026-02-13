@@ -6,7 +6,7 @@ import streamlit as st
 load_dotenv()
 
 # Create client instead of configure (new SDK way)
-client = gen.Client(api_key=st.secrets["GEMINI_API_KEY"])
+client = gen.Client(api_key=st.secrets["Gem-api-key"])
 
 text_model = "gemini-2.5-flash"
 image_model = "gemini-2.5-flash"
