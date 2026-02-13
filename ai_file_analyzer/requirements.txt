@@ -3,5 +3,6 @@ pandas
 openpyxl
 PyPDF2
 pillow
-google-generativeai
+google-genai
+
 python-dotenv
