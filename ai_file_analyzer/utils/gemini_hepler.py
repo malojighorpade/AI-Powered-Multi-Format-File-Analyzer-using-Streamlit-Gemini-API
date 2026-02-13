@@ -7,8 +7,6 @@ gen.configure(api_key=os.getenv("Gem-api-key"))
 text_model=gen.GenerativeModel("gemini-2.5-flash")
 image_model=gen.GenerativeModel("gemini-2.5-flash")
 
-for m in gen.list_models():
-    print(m.name)
 
 Max_prompt=4000
 
